@@ -1,0 +1,36 @@
+@use "variables" as *;
+
+// X Small Media Queries Mixin
+@mixin mediaXsmall($value) {
+  @media ($value: $xSmall) {
+    @content;
+  }
+}
+
+// Small Media Queries
+@mixin mediaSmall($value) {
+  @media ($value: $small) {
+    @content;
+  }
+}
+
+// Medium Media Queries Mixin
+@mixin mediaMedium($value) {
+  @media ($value: $medium) {
+    @content;
+  }
+}
+
+// large Media Queries Mixin
+@mixin mediaLarge($value) {
+  @media ($value: $large) {
+    @content;
+  }
+}
+
+// X large Media Queries Mixin
+@mixin mediaXlarge($value) {
+  @media ($value: $xLarge) {
+    @content;
+  }
+}

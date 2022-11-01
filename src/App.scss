@@ -1,0 +1,120 @@
+@use "Style/sass/helpers/variables" as *;
+@use "Style/sass/helpers/mixins" as *;
+
+// Start Global Rules
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Tajawal", sans-serif;
+  text-align: center;
+}
+.app {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto 1fr;
+}
+.app-main {
+  & > section {
+    position: relative;
+  }
+  & > section:nth-child(odd) {
+    background-color: #{$bgWhite};
+    & > .spikes::after {
+      background-image: linear-gradient(
+          135deg,
+          #{$bgWhite} 25%,
+          transparent 25%
+        ),
+        linear-gradient(225deg, #{$bgWhite} 25%, transparent 25%);
+    }
+  }
+  & > section:nth-child(even) {
+    background-color: #{$bgGreen};
+    & > .spikes::after {
+      background-image: linear-gradient(
+          135deg,
+          #{$bgGreen} 25%,
+          transparent 25%
+        ),
+        linear-gradient(225deg, #{$bgGreen} 25%, transparent 25%);
+    }
+  }
+}
+@for $i from 1 through 6 {
+  h#{$i} {
+    margin: 0;
+  }
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: $darkText;
+}
+// End Global Rules
+
+// Start Grid System
+.container {
+  width: 80vw;
+  padding: 0 20px;
+  margin: auto;
+  @include mediaMedium(max-width) {
+    width: 88vw;
+  }
+}
+// End Grid System
+
+// Start Header
+.main-header {
+  background-color: #{$whiteText};
+  box-shadow: 0 -10px 22px #318078;
+  position: relative;
+  z-index: 1;
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 0;
+  }
+  .header-logo {
+    all: unset;
+    width: 100px;
+  }
+}
+// End Header
+
+// Start Footer
+.main-footer {
+  background-color: #{$bgGreen};
+  color: #{$whiteText};
+  .holder-text {
+    padding: {
+      top: 20px;
+      bottom: 20px;
+    }
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 18px;
+
+    span:first-child {
+      .text-bold {
+        font-weight: 500;
+      }
+    }
+
+    span:last-child {
+    }
+  }
+}
+// End Footer

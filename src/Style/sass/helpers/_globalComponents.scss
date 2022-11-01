@@ -1,0 +1,47 @@
+@use "variables" as *;
+
+// Start Global Components
+.button {
+  all: unset;
+  font: {
+    size: 20px;
+    weight: 500;
+  }
+  border: 2px solid #{$mainColor};
+  border-radius: 6px;
+  color: #{$mainColor};
+  padding: 5px 15px;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  transition: 300ms;
+  &:hover {
+    background-color: #{$mainColor};
+    color: #ffffff;
+  }
+  &:active {
+    background-color: #2ca498;
+    border-color: #2ca498;
+  }
+}
+.padding {
+  padding: {
+    top: 60px;
+    bottom: 60px;
+  }
+}
+.spikes {
+  &::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    left: -0%;
+    top: 100%;
+    z-index: 10;
+    display: block;
+    height: 10px;
+    background-size: 10px 100%;
+    background-position: 0 0;
+  }
+}
+// End Global Components

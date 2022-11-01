@@ -1,0 +1,196 @@
+@use "../sass/helpers/variables" as *;
+@use "../sass/helpers/mixins" as *;
+
+// Start Landing
+.landing {
+  min-height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .landing-holder {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 7vw;
+    @include mediaXlarge(min-width) {
+      justify-content: center;
+      gap: 70px;
+    }
+    @include mediaSmall(max-width) {
+      flex-direction: column-reverse;
+      gap: 50px;
+    }
+    .landing-text {
+      .landing-img-holder {
+        img {
+          width: 35vw;
+          max-width: 420px;
+          @include mediaSmall(max-width) {
+            width: 60vw;
+          }
+        }
+      }
+      h2 {
+        position: absolute;
+        color: #{$lightText};
+        margin-top: 16px;
+        font: {
+          size: 2.6vw;
+          weight: 400;
+        }
+        @include mediaXlarge(min-width) {
+          font-size: 32px;
+        }
+        @include mediaSmall(max-width) {
+          position: relative;
+          margin-top: 50px;
+          font-size: 26px;
+        }
+      }
+    }
+    .landing-img {
+      img {
+        width: 35vw;
+        max-width: 382.77px;
+        @include mediaSmall(max-width) {
+          width: 60vw;
+        }
+      }
+    }
+  }
+}
+// End Landing
+
+// Start Goals
+.goals {
+  h1 {
+    padding-top: 60px;
+    font: {
+      size: 46px;
+      weight: 700;
+    }
+    color: #{$whiteText};
+  }
+  .goals-holder {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 7vw;
+    @include mediaXlarge(min-width) {
+      justify-content: center;
+      gap: 70px;
+    }
+    @include mediaSmall(max-width) {
+      flex-direction: column;
+    }
+    .holder-box {
+      background-color: #{$bgWhite};
+      padding: 20px;
+      border: 1px solid #eee;
+      border-radius: 6px;
+      box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+        rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+      max-width: 300px;
+      min-height: 207px;
+      .box-icon {
+        font-size: 50px;
+      }
+      .box-heading {
+        font: {
+          size: 25px;
+          weight: 500;
+        }
+        margin: {
+          top: 10px;
+          bottom: 20px;
+        }
+        @include mediaXlarge(max-width) {
+          font-size: 2.4vw;
+        }
+        @include mediaLarge(max-width) {
+          font-size: 3vw;
+        }
+        @include mediaMedium(max-width) {
+          font-size: 3.5vw;
+        }
+        @include mediaSmall(max-width) {
+          font-size: 26px;
+        }
+      }
+    }
+  }
+}
+// End Goals
+
+// Start Advice
+.advice {
+  .container {
+    display: flex;
+    justify-content: center;
+  }
+  .advice-holder {
+    display: flex;
+    align-items: center;
+    gap: 8.4vw;
+    border: 2px solid #{$mainColor};
+    border-radius: 10px;
+    padding: 30px {
+      bottom: 0;
+    }
+    @include mediaXlarge(min-width) {
+      gap: 100px;
+      max-width: 920px;
+    }
+    @include mediaLarge(max-width) {
+      gap: 3vw;
+      padding: 28px {
+        bottom: 0;
+      }
+    }
+    @include mediaMedium(max-width) {
+      flex-direction: column;
+      padding-top: 40px;
+      gap: 50px;
+    }
+
+    .holder-text {
+      h2 {
+        margin-bottom: 36px;
+        font: {
+          size: 28px;
+          weight: 500;
+        }
+        max-width: 515px;
+        @include mediaLarge(max-width) {
+          font-size: 26px;
+        }
+        @include mediaMedium(max-width) {
+          font-weight: 400;
+        }
+        @include mediaSmall(max-width) {
+          font-size: 22px;
+        }
+      }
+
+      .text-button {
+        @include mediaSmall(max-width) {
+          font-size: 16px;
+        }
+      }
+    }
+
+    img {
+      width: 160px;
+      @include mediaMedium(max-width) {
+        width: 230px;
+        position: relative;
+        left: -22px;
+      }
+      @include mediaSmall(max-width) {
+        width: 36vw;
+        left: -14px;
+      }
+    }
+  }
+}
+// End Advice
