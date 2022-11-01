@@ -8,7 +8,7 @@ import img1 from "../../../imgs/lessons/lesson=3/1.svg";
 import img2 from "../../../imgs/lessons/lesson=3/2.svg";
 
 const Lesson3 = () => {
-  const [arr, setArr] = useState([img1, img2]);
+  const [arr] = useState([img1, img2]);
   const [img, setImg] = useState(0);
   const [chapter, setChapter] = useState(1);
   const [icon, setIcon] = useState(1);

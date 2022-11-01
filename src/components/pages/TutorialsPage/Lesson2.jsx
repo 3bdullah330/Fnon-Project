@@ -9,7 +9,7 @@ import img2 from "../../../imgs/lessons/lesson=2/2.svg";
 import img3 from "../../../imgs/lessons/lesson=2/3.svg";
 
 const Lesson2 = () => {
-  const [arr, setArr] = useState([img1, img2, img3]);
+  const [arr] = useState([img1, img2, img3]);
   const [img, setImg] = useState(0);
   const [chapter, setChapter] = useState(1);
   const [icon, setIcon] = useState(1);
