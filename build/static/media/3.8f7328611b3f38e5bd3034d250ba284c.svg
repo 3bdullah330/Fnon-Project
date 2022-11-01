@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="618.533" height="321.859" viewBox="0 0 618.533 321.859">
+  <defs>
+    <filter id="Path_26" x="0" y="0" width="276.796" height="134.748" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Path_28" x="0" y="163.266" width="276.796" height="134.748" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Ellipse_1" x="340.103" y="43.429" width="278.43" height="278.43" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-3"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_66" data-name="Group 66" transform="translate(-492.734 -318)">
+    <g id="Group_36" data-name="Group 36" transform="translate(-4253.267 875)">
+      <g transform="matrix(1, 0, 0, 1, 4746, -557)" filter="url(#Path_26)">
+        <path id="Path_26-2" data-name="Path 26" d="M152.814,47.56h151.3a59.776,59.776,0,0,1,59.773,59.773v44.975h-211.1L117.09,101.087,152.784,47.56Z" transform="translate(-102.09 -32.56)" fill="#fafcff"/>
+      </g>
+      <path id="Path_27" data-name="Path 27" d="M127.274,47.56h18.708l-36.336,53.352,25.421,36.482H412.8v14.914H127.274L91.58,101.087Z" transform="translate(4669.45 -589.56)" fill="#f25160"/>
+      <g transform="matrix(1, 0, 0, 1, 4746, -557)" filter="url(#Path_28)">
+        <path id="Path_28-2" data-name="Path 28" d="M152.814,103.5h151.3a59.776,59.776,0,0,1,59.773,59.773v44.975h-211.1L117.09,157.027,152.784,103.5Z" transform="translate(-102.09 74.77)" fill="#fafcff"/>
+      </g>
+      <path id="Path_29" data-name="Path 29" d="M123.194,103.5H141.9l-36.336,53.323L130.987,193.3H420.628v14.943H123.194L87.5,157.027Z" transform="translate(4673.529 -482.234)" fill="#f8a7af"/>
+      <path id="Path_30" data-name="Path 30" d="M42.9,190.713c0-.671-.058-1.343-.058-2.043A181.458,181.458,0,0,1,94.762,61.39L224.084,190.713Z" transform="translate(5000.417 -563.026)" fill="#f25160"/>
+      <path id="Path_31" data-name="Path 31" d="M224.026,105.7,96.717,233.009A181.3,181.3,0,0,1,42.84,105.7Z" transform="translate(5000.475 -478.013)" fill="#f8a7af"/>
+      <g transform="matrix(1, 0, 0, 1, 4746, -557)" filter="url(#Ellipse_1)">
+        <ellipse id="Ellipse_1-2" data-name="Ellipse 1" cx="124.215" cy="124.215" rx="124.215" ry="124.215" transform="translate(355.1 58.43)" fill="#fafcff"/>
+      </g>
+    </g>
+    <g id="Group_37" data-name="Group 37" transform="translate(12 28.192)">
+      <text id="من_متطلبات_الفن" data-name="من متطلبات
+الفن" transform="translate(1061 468)" fill="#2d2d2d" font-size="41" font-family="Tajawal-Medium, Tajawal" font-weight="500"><tspan x="-214.061" y="0">من متطلبات</tspan><tspan y="0"></tspan><tspan x="-76.096" y="57">الفن</tspan></text>
+      <text id=":" transform="translate(985 524)" fill="#2d2d2d" font-size="30" font-family="Tajawal-Medium, Tajawal" font-weight="500"><tspan x="-7.38" y="0">:</tspan></text>
+    </g>
+    <text id="مهارات_التفكير" data-name="مهارات التفكير" transform="translate(716 388.192)" fill="#f25160" font-size="26" font-family="Tajawal-Regular, Tajawal"><tspan x="-153.946" y="0">مهارات التفكير</tspan></text>
+    <text id="المعرفة_والعلم" data-name="المعرفة والعلم" transform="translate(721 554.192)" fill="#f8a7af" font-size="26" font-family="Tajawal-Regular, Tajawal"><tspan x="-161.46" y="0">المعرفة والعلم</tspan></text>
+  </g>
+</svg>

@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="936.114" height="441.94" viewBox="0 0 936.114 441.94">
+  <defs>
+    <filter id="Path_36" x="133.047" y="307.192" width="296.798" height="134.748" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Path_35" x="28.199" y="163.266" width="296.648" height="134.748" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Path_20" x="0" y="0" width="324.908" height="134.748" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-3"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Path_8" x="422.999" y="306.715" width="276.796" height="134.748" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-4"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Path_11" x="317.58" y="0" width="276.796" height="134.748" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-5"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-5"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Path_13" x="317.58" y="163.266" width="276.796" height="134.748" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-6"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-6"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Path_19" x="657.683" y="43.429" width="278.43" height="278.43" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur-7"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-7"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_47" data-name="Group 47" transform="translate(-2257.153 1746.192)">
+    <g id="Group_45" data-name="Group 45" transform="translate(104.848)">
+      <g id="Group_46" data-name="Group 46" transform="translate(0 37.926)">
+        <g transform="matrix(1, 0, 0, 1, 2152.3, -1784.12)" filter="url(#Path_36)">
+          <path id="Path_36-2" data-name="Path 36" d="M155.709,103.5H319.271c35.685,0,64.617,26.763,64.617,59.773v44.975H155.677L117.09,157.027,155.677,103.5Z" transform="translate(30.96 218.69)" fill="#fafcff"/>
+        </g>
+        <path id="Path_37" data-name="Path 37" d="M123.194,103.5H141.9l-36.336,53.323L130.987,193.3H420.628v14.943H123.194L87.5,157.027Z" transform="translate(2212.881 -1565.426)" fill="#36beb1"/>
+      </g>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 2257.15, -1746.19)" filter="url(#Path_35)">
+      <path id="Path_35-2" data-name="Path 35" d="M155.687,103.5h163.47c35.664,0,64.581,26.763,64.581,59.773v44.975H155.655L117.09,157.027,155.655,103.5Z" transform="translate(-73.89 74.77)" fill="#fafcff"/>
+    </g>
+    <path id="Path_34" data-name="Path 34" d="M123.194,103.5H141.9l-36.336,53.323L130.987,193.3H420.628v14.943H123.194L87.5,157.027Z" transform="translate(2212.881 -1671.426)" fill="#36beb1"/>
+    <g transform="matrix(1, 0, 0, 1, 2257.15, -1746.19)" filter="url(#Path_20)">
+      <path id="Path_20-2" data-name="Path 20" d="M123.658,0H304.453c39.444,0,71.425,26.763,71.425,59.773v44.975H123.623L80.97,53.527Z" transform="translate(-65.97 15)" fill="#fafcff"/>
+    </g>
+    <path id="Path_21" data-name="Path 21" d="M116.654,0h18.708L99.026,53.352l25.421,36.482h317.84v14.943H116.654L80.96,53.527Z" transform="translate(2191.222 -1731.192)" fill="#36beb1"/>
+    <g transform="matrix(1, 0, 0, 1, 2257.15, -1746.19)" filter="url(#Path_8)">
+      <path id="Path_8-2" data-name="Path 8" d="M116.694,152.65h151.3a59.776,59.776,0,0,1,59.773,59.773V257.4h-211.1L80.97,206.177l35.694-53.527Z" transform="translate(357.03 169.06)" fill="#fafcff"/>
+    </g>
+    <path id="Path_9" data-name="Path 9" d="M116.654,152.65h18.708L99.026,206l25.421,36.482H327.756V257.4h-211.1L80.96,206.177Z" transform="translate(2614.222 -1576.65)" fill="#da636b"/>
+    <path id="Path_10" data-name="Path 10" d="M68.861,259.374l97.189-97.189L155.484,151.62,47.73,259.374Z" transform="translate(2872.913 -1579.104)" fill="#da636b"/>
+    <g transform="matrix(1, 0, 0, 1, 2257.15, -1746.19)" filter="url(#Path_11)">
+      <path id="Path_11-2" data-name="Path 11" d="M152.813,47.56h151.3a59.776,59.776,0,0,1,59.773,59.773v44.975h-211.1L117.09,101.087,152.784,47.56Z" transform="translate(215.49 -32.56)" fill="#fafcff"/>
+    </g>
+    <path id="Path_12" data-name="Path 12" d="M127.274,47.56h18.708l-36.336,53.352,25.421,36.482H412.8v14.914H127.274L91.58,101.087Z" transform="translate(2498.182 -1778.752)" fill="#f25160"/>
+    <g transform="matrix(1, 0, 0, 1, 2257.15, -1746.19)" filter="url(#Path_13)">
+      <path id="Path_13-2" data-name="Path 13" d="M152.813,103.5h151.3a59.776,59.776,0,0,1,59.773,59.773v44.975h-211.1L117.09,157.027,152.784,103.5Z" transform="translate(215.49 74.77)" fill="#fafcff"/>
+    </g>
+    <path id="Path_14" data-name="Path 14" d="M123.194,103.5H141.9l-36.336,53.323L130.987,193.3H420.628v14.943H123.194L87.5,157.027Z" transform="translate(2502.262 -1671.426)" fill="#f8a7af"/>
+    <path id="Path_15" data-name="Path 15" d="M42.9,190.713c0-.671-.058-1.343-.058-2.043A181.458,181.458,0,0,1,94.762,61.39L224.084,190.713Z" transform="translate(2829.15 -1752.218)" fill="#f25160"/>
+    <path id="Path_16" data-name="Path 16" d="M224.026,105.7,96.717,233.009A181.3,181.3,0,0,1,42.84,105.7Z" transform="translate(2829.208 -1667.205)" fill="#f8a7af"/>
+    <path id="Path_18" data-name="Path 18" d="M170.149,105.719V285.738A181.5,181.5,0,0,1,42.84,233L170.149,105.69Z" transform="translate(2883.085 -1667.224)" fill="#da636b"/>
+    <g transform="matrix(1, 0, 0, 1, 2257.15, -1746.19)" filter="url(#Path_19)">
+      <path id="Path_19-2" data-name="Path 19" d="M124.215,0A124.215,124.215,0,1,0,248.43,124.215,124.215,124.215,0,0,0,124.215,0Z" transform="translate(672.68 58.43)" fill="#fafcff"/>
+    </g>
+    <text id="الفن_نشاط_بشري" data-name="الفن نشاط
+بشري" transform="translate(3143 -1574)" fill="#2d2d2d" font-size="41" font-family="Tajawal-Medium, Tajawal" font-weight="500"><tspan x="-190.363" y="0">الفن نشاط</tspan><tspan y="0"></tspan><tspan x="-104.714" y="57">بشري</tspan></text>
+    <text id="يعتبر_الفن_فكر_ذهني_خالص" data-name="يعتبر الفن
+فكر ذهني خالص" transform="translate(2782 -1693)" fill="#f25160" font-size="20" font-family="Tajawal-Regular, Tajawal"><tspan x="-81.26" y="0">يعتبر الفن</tspan><tspan y="0"></tspan><tspan x="-129.38" y="28">فكر ذهني خالص</tspan></text>
+    <text id="يُعبِّرُ_عن_العالم_الخارجي_للفنان" data-name="يُعبِّرُ عن العالم
+الخارجي للفنان" transform="translate(2776 -1529)" fill="#f8a7af" font-size="20" font-family="Tajawal-Regular, Tajawal"><tspan x="-117.28" y="0">يُعبِّرُ عن العالم</tspan><tspan y="0"></tspan><tspan x="-114.4" y="28">الخارجي للفنان</tspan></text>
+    <text id="يُعبِّرُ_عن_العالم_الداخلي_للفنان" data-name="يُعبِّرُ عن العالم
+الداخلي للفنان" transform="translate(2888 -1385)" fill="#da636b" font-size="20" font-family="Tajawal-Regular, Tajawal"><tspan x="-117.28" y="0">يُعبِّرُ عن العالم</tspan><tspan y="0"></tspan><tspan x="-110.72" y="28">الداخلي للفنان</tspan></text>
+    <text id=":" transform="translate(3039 -1516)" fill="#2d2d2d" font-size="30" font-family="Tajawal-Medium, Tajawal" font-weight="500"><tspan x="-7.38" y="0">:</tspan></text>
+    <text id="عملية_معرفية_تساعد_الفرد_على_فهم_العالم_الخارجي_المحيط_به_واستيعابه" data-name="عملية معرفية تساعد الفرد
+على فهم العالم الخارجي
+المحيط به واستيعابه" transform="translate(2505 -1702)" fill="#36beb1" font-size="16" font-family="Tajawal-Regular, Tajawal"><tspan x="-171.2" y="0">عملية معرفية تساعد الفرد</tspan><tspan y="0"></tspan><tspan x="-152.32" y="22">على فهم العالم الخارجي</tspan><tspan y="22"></tspan><tspan x="-136.912" y="44">المحيط به واستيعابه</tspan></text>
+    <text id="النظرة_الكُلِّية_للعمل_الفني_دون_النظر_إلى_التفاصيل_والأجزاء_أو_العناصر_الأولية" data-name="النظرة الكُلِّية للعمل الفني
+دون النظر إلى التفاصيل
+والأجزاء أو العناصر الأولية" transform="translate(2522 -1538)" fill="#36beb1" font-size="16" font-family="Tajawal-Regular, Tajawal"><tspan x="-165.904" y="0">النظرة الكُلِّية للعمل الفني</tspan><tspan y="0"></tspan><tspan x="-149.824" y="22">دون النظر إلى التفاصيل</tspan><tspan y="22"></tspan><tspan x="-163.36" y="44">والأجزاء أو العناصر الأولية</tspan></text>
+    <text id="التركيب_التأليف_التوحيد" data-name="التركيب، التأليف، التوحيد" transform="translate(2622 -1369)" fill="#36beb1" font-size="16" font-family="Tajawal-Regular, Tajawal"><tspan x="-150.304" y="0">التركيب، التأليف، التوحيد</tspan></text>
+  </g>
+</svg>
